@@ -13,7 +13,7 @@ most influence academic success.
 
 ## Dataset
 - **Source:** Kaggle — Student Performance Dataset
-- **Link:** https://www.kaggle.com/datasets/rabieelkharoua/students-performance-dataset
+- **Link:** https://www.kaggle.com/datasets/adilshamim8/student-performance-and-learning-style
 - **Rows:** 14,003 students
 - **Target Variable:** ExamScore
 
