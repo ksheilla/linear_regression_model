@@ -1,0 +1,15 @@
+@"
+# Python virtual env
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+"@ | Out-File -Encoding utf8 .gitignore
