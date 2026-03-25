@@ -77,12 +77,6 @@ linear_regression_model/
 
 ## How to Run the Flutter Mobile App
 
-### Prerequisites
-Make sure you have the following installed:
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.0+)
-- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
-- A connected Android/iOS device or emulator
-
 ### Steps
 
 **1. Clone the repository**
@@ -103,10 +97,10 @@ flutter pub get
 
 **4. Run the app**
 ```bash
-# Run on Android device
+# For Android device
 flutter run -d android
 
-# Run on iOS device
+# For iOS device
 flutter run -d ios
 ```
 
