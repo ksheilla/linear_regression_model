@@ -21,7 +21,6 @@ class READitApp extends StatelessWidget {
   }
 }
 
-// ── Input field ───────────────────────────────────────────────
 class _InputField extends StatelessWidget {
   final String label;
   final String hint;
@@ -122,7 +121,6 @@ class _InputField extends StatelessWidget {
   }
 }
 
-// ── Prediction page ───────────────────────────────────────────
 class PredictionPage extends StatefulWidget {
   const PredictionPage({super.key});
 
@@ -290,7 +288,6 @@ class _PredictionPageState extends State<PredictionPage>
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-                // ── Header ────────────────────────────────
                 Container(
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
@@ -353,8 +350,7 @@ class _PredictionPageState extends State<PredictionPage>
                 ),
 
                 const SizedBox(height: 20),
-
-                // ── Glassmorphism input card ───────────────
+                
                 Container(
                   padding: const EdgeInsets.all(22),
                   decoration: BoxDecoration(
@@ -462,7 +458,6 @@ class _PredictionPageState extends State<PredictionPage>
 
                 const SizedBox(height: 20),
 
-                // ── Predict button ─────────────────────────
                 GestureDetector(
                   onTap: _isLoading ? null : _predict,
                   child: AnimatedContainer(
@@ -519,7 +514,6 @@ class _PredictionPageState extends State<PredictionPage>
                   ),
                 ),
 
-                // ── Result card ────────────────────────────
                 if (_result.isNotEmpty)
                   FadeTransition(
                     opacity: _fadeAnim,
